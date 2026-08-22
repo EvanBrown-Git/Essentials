@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: EVAN BROWN - Room Environment.005.ma
-//Last modified: Sat, Aug 22, 2026 01:03:02 PM
+//Name: EVAN BROWN - Room Environment.006.ma
+//Last modified: Sat, Aug 22, 2026 01:03:37 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "FCF39249-42AE-D3BE-ED7A-A596E32A8E28";
+fileInfo "UUID" "B9E4693F-46E5-3B93-1752-BEAF170EEBD5";
 createNode transform -s -n "persp";
 	rename -uid "E40E8D80-4790-BA4A-ECF6-52B6D7198EAF";
 	setAttr ".v" no;
@@ -139943,6 +139943,9 @@ select -ne :defaultColorMgtGlobals;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
+select -ne :modelPanel4ViewSelectedSet;
+	setAttr ".ihi" 0;
+	setAttr -s 4 ".dsm";
 connectAttr "polyBevel27.out" "Room_BaseShape.i";
 connectAttr "polyTweakUV6.uvtk[0]" "Room_BaseShape.uvst[0].uvtw";
 connectAttr "groupId3.id" "Sound_FoamShape.iog.og[0].gid";
@@ -140839,4 +140842,4 @@ connectAttr "groupId35.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId36.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId37.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId38.msg" ":initialShadingGroup.gn" -na;
-// End of EVAN BROWN - Room Environment.005.ma
+// End of EVAN BROWN - Room Environment.006.ma
