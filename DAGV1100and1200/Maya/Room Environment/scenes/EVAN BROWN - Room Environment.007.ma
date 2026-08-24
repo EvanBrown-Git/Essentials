@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: EVAN BROWN - Room Environment.006.ma
-//Last modified: Sat, Aug 22, 2026 06:35:41 PM
+//Name: EVAN BROWN - Room Environment.007.ma
+//Last modified: Sat, Aug 22, 2026 06:36:50 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "1CC9F87F-4E64-5C51-7BE8-4BB7F2086C15";
+fileInfo "UUID" "2BF7EF70-4A94-8C1D-E06E-7DA4C1AB93A3";
 createNode transform -s -n "persp";
 	rename -uid "E40E8D80-4790-BA4A-ECF6-52B6D7198EAF";
 	setAttr ".v" no;
@@ -157560,4 +157560,4 @@ connectAttr "groupId59.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId60.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId62.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId63.msg" ":initialShadingGroup.gn" -na;
-// End of EVAN BROWN - Room Environment.006.ma
+// End of EVAN BROWN - Room Environment.007.ma
