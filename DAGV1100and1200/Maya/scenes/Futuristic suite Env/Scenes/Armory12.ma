@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: Armory11.ma
-//Last modified: Fri, Sep 18, 2026 02:47:47 PM
+//Name: Armory12.ma
+//Last modified: Fri, Sep 18, 2026 02:48:33 PM
 //Codeset: 1252
 requires maya "2027";
 requires -nodeType "sweepMeshCreator" -dataType "sweepMeshData" -dataType "sweepProfileData"
@@ -15,7 +15,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "4DD4099B-407F-E36C-5CD1-DF8F1D63C981";
+fileInfo "UUID" "5FC20DA2-4E5A-CEEF-E9CF-7AA4B39AD105";
 createNode transform -s -n "persp";
 	rename -uid "B7A01AD0-494D-BA6B-CAA0-69B4404ACB70";
 	setAttr ".v" no;
@@ -190994,4 +190994,4 @@ connectAttr "groupId76.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId77.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId78.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId79.msg" ":initialShadingGroup.gn" -na;
-// End of Armory11.ma
+// End of Armory12.ma
