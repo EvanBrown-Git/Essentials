@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: Diorama1.ma
-//Last modified: Sat, Sep 26, 2026 04:43:24 PM
+//Name: Diorama2.ma
+//Last modified: Sat, Sep 26, 2026 04:43:29 PM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "BAA4824E-470D-6C5A-9CA4-CEBB12ADE1CF";
+fileInfo "UUID" "2C029624-4CE5-0E06-2C89-35970F775D76";
 createNode transform -s -n "persp";
 	rename -uid "8ACC9AED-4E55-7899-56CE-3FB54E760F20";
 	setAttr ".v" no;
@@ -103059,4 +103059,4 @@ connectAttr "groupId333.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId334.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId335.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId336.msg" ":initialShadingGroup.gn" -na;
-// End of Diorama1.ma
+// End of Diorama2.ma
